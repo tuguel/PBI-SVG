@@ -1,0 +1,72 @@
+<svg width='220' height='130' xmlns='http://www.w3.org/2000/svg'>
+<!-- Grey background arc for reference -->
+<path d='M 20,110 A 80,80 0 0,1 200,110' fill='none' stroke='#ddd' stroke-width='30' />
+<!-- Red segment -->
+<path d='M 15,110 A 98,98 0 0,1 32.68847050625475,53.4' fill='none' stroke='#FF656C' stroke-width='30' />
+<!-- Orange segment -->
+<path d='M 32.28847050625475,53.8 A 98,95 0 0,1 81.68847050625474,19.404913533436174' fill='none' stroke='#FF925B' stroke-width='30' />
+<!-- Light Green segment -->
+<path d='M 138.8,19.7 A 98,98 0 0,1 188,54' fill='none' stroke='#B7DA30' stroke-width='30' />
+<!-- Green segment -->
+<path d='M 187.5,53.2 A 98,98 0 0,1 205,110' fill='none' stroke='#5EBF58' stroke-width='30' />
+<!-- Yellow segment -->
+<path d='M 81.2,19.5 A 98,95 0 0,1 139,19.7' fill='none' stroke='#FFC72E' stroke-width='30' />
+<!-- Outline arc align tightly with the bottom border of the gauge -->
+<path d='M 30,110 A 60,60 0 0,1 190,110' fill='none' stroke='#8B8B8B' stroke-width='2' />
+<!-- Triangle (needle) indicator at the bottom center -->
+<polygon points='110,26 104,76 116,76' stroke='#8B8B8B' stroke-width='1.5' fill='#ddd' transform='rotate(90, 110, 90)'/>
+<!-- Circle base for the needle -->
+<circle cx='110' cy='90' r='21' stroke='#8B8B8B' stroke-width='2' fill='none' />
+
+  <!-- Lightly Happy Face -->
+  <g id='lightly-happy-face'>
+    <!-- Light green circle background for the face -->
+    <circle cx='110' cy='90' r='20' fill='#B7DA30' />
+    <!-- Subtly happy eyes -->
+    <circle cx='105' cy='86' r='3' fill='black' />
+    <circle cx='115' cy='86' r='3' fill='black' />
+    <!-- Less pronounced smile -->
+    <path d='M 103,98 Q 110,104 117,98' stroke='black' stroke-width='3' fill='none' />
+  </g>
+  <!-- Meh Face -->
+  <g id='meh-face'>
+    <!-- Yellow circle background for the face -->
+    <circle cx='110' cy='90' r='20' fill='#FFC72E' />
+    <!-- Flat eyes -->
+    <circle cx='104' cy='85' r='2.8' fill='black' />
+    <circle cx='116' cy='85' r='2.8' fill='black' />
+    <!-- Straight line mouth -->
+    <line x1='103' y1='98' x2='117' y2='98' stroke='black' stroke-width='3.5' />
+  </g>
+  <!-- Semisad Face -->
+  <g id='semi-sad-face'>
+	  <!-- Orange circle background for the face -->
+	  <circle cx='110' cy='90' r='20' fill='#FF925B' />
+	  <!-- Neutral eyes -->
+	  <circle cx='103' cy='86' r='2.8' fill='black' />
+	  <circle cx='117' cy='86' r='2.8' fill='black' />
+	  <!-- Slight frown -->
+	  <path d='M 104,99 Q 110,94 116,98' stroke='black' stroke-width='2.5' fill='none' />
+  </g>
+  <!-- Disagree Face -->
+	<g id='disagree-face'>
+	  <!-- Red circle background for the face -->
+	  <circle cx='110' cy='90' r='20' fill='#FF656C' />
+	  <!-- Downturned eyes to suggest a frown -->
+	  <path d='M 103,84 Q 106,89 106,84' stroke='black' stroke-width='3.4' fill='none' />
+	  <path d='M 113,84 Q 116,89 116,84' stroke='black' stroke-width='3.4' fill='none' />
+	  <!-- Frowning mouth -->
+	  <path d='M 103,100 Q 110,91 118,98' stroke='black' stroke-width='2.5' fill='none' />
+	</g>
+  <!-- Happy Face -->
+  <g id='happy-face'>
+    <!-- Green circle background for the face -->
+    <circle cx='110' cy='90' r='20' fill='#5EBF58' />
+    <!-- Happier Eyes -->
+    <circle cx='103' cy='84' r='3.2' fill='black' />
+    <circle cx='116' cy='84' r='3.2' fill='black' />
+    <!-- Big Smile -->
+    <path d='M 100,95 Q 110,101 120,95' stroke='black' stroke-width='4.5' fill='none' />
+    <path d='M 101,96 Q 110,106 119,96' stroke='black' stroke-width='4.5' fill='none' />
+  </g>
+</svg>
